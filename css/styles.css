@@ -177,7 +177,7 @@ a {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
      url(../images/bg.jpg);
 }
-.hero-title {
+.hero__title {
     width: 696px;
     margin:auto;
     text-align: center;
@@ -191,7 +191,7 @@ a {
     letter-spacing: 0.06em;
 }
 
-.hero-button {
+.hero__button {
     color: #FFFFFF;
     background-color: var(--bluebrand-clor);
     font-weight: 700;
@@ -660,7 +660,7 @@ a {
 }
 
 
-.customers-title {
+.customers__title {
     margin-bottom: 50px;
     text-align: center;
 
@@ -671,17 +671,17 @@ a {
     letter-spacing: 0.03em;
 }
 
-.customers-list {
+.customers__list {
     display: flex;
     gap: 30px;  
 }
 
-.customers-item {
+.customers__item {
     width: calc((100% - 150px)/6);
     height: 92px; 
 }
 
-.customers-link {
+.customers__link {
     height: 100%;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -691,69 +691,69 @@ a {
     transition: border-color 250ms ease-in-out;
 }
 
-.customers-icon {
+.customers__icon {
     fill: #AFB1B8;
     transition: fill 250ms ease-in-out;
 }
 
-.customers-link:hover,
-.customers-link:focus {
+.customers__link:hover,
+.customers__link:focus {
     border-color: var(--bluebrand-clor);
     transition: border-color 250ms ease-in-out;
     
 }
 
-.customers-link:hover .customers-icon{
+.customers__link:hover .customers__icon{
     fill: var(--bluebrand-clor);
     transition: fill 250ms ease-in-out;
     
 }
-.customers-link:focus .customers-icon {
+.customers__link:focus .customers__icon {
     fill: var(--bluebrand-clor);
     transition: fill 250ms ease-in-out;
     
 }
 
 /* footer */
-.page-footer {
+.footer__page {
     padding-bottom: 60px;
     padding-top: 60px;
     
     background-color: #2F303A;
     font-style: normal;
 }
-.footer-countainer {
+.footer__countainer {
     display: flex;
     align-items: baseline;
 }
 
 
-.footer-address {
+.footer__address {
     max-width: 231px;
     width: 100%;
     margin-right: 70px;
 }
 
-.address-page {
+.footer__address__page {
     margin-top: 20px;
 }
 
-.street {
+.footer__street {
     font-style: normal;
     color: #FFFFFF;
     font-size: 14px;
     line-height: 1.71;
 }
 
-.address-page .link {
+.footer__address__page .link {
     color:rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.71;
     transition: background-color 0.25s ease-in-out;
 }
 
-.address-page .link:hover,
-.address-page .link:focus {
+.footer__address__page .link:hover,
+.footer__address__page .link:focus {
     color: var(--bluebrand-clor);
     
 }
@@ -767,7 +767,7 @@ a {
     margin-bottom: 20px;
 }
 
-.soc-title {
+.footer__soc__title {
     color: #FFFFFF;
     margin-bottom: 20px;
 
@@ -779,14 +779,14 @@ a {
     
 }
 
-.footer-soc-list{ 
+.footer__soc__list{ 
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
 
-.footer-soc-link {
+.footer__soc__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -798,38 +798,38 @@ a {
     
 }
 
-.footer-soc-item:not(:last-child) {
+.footer__soc__item:not(:last-child) {
     margin-right: 10px;
 }
 
-.footer-soc-link:hover,
-.footer-soc-link:focus {
+.footer__soc__link:hover,
+.footer__soc__link:focus {
     background-color: var(--bluebrand-clor);
     
 }
 
-.footer-soc-link:hover
-.footer-soc-link:focus .footer-soc-icon {
+.footer__soc__link:hover
+.footer__soc__link:focus .footer-soc-icon {
     fill: #FFFFFF;
     
 }
 
-.footer-soc-icon {
+.footer__soc__icon {
     fill: #FFFFFF;
     
 }
 
-.subscribe {
+.footer__subscribe {
     padding-left: 93px;
 }
 
 
-.footer-form {
+.footer__form {
     display: flex;
 }
 
 
-.subscribe-title {
+.footer__subscribe__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -843,7 +843,7 @@ a {
     
 }
 
-.input-footer {
+.footer__input {
     background-color: rgba(47, 48, 58, 1);
     color: #FFFFFF;
     width: 358px;
@@ -857,13 +857,13 @@ a {
 
 }
 
-.input-footer::placeholder {
+.footer__input::placeholder {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.3);
      padding-bottom: 15px;
 }
 
-.subscribe-button {
+.footer__subscribe__button {
     background-color: var(--bluebrand-clor);
     color: #FFFFFF;
     width: 200px;
@@ -882,7 +882,7 @@ a {
 }
 
 
-.subscribe-icon {
+.footer__subscribe__icon {
     position: absolute;
     margin-left: 10px;
 }
@@ -941,7 +941,7 @@ a {
     
 }
 
-.project {
+/* .project {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -949,36 +949,36 @@ a {
 
 }
 
-.project-item {
+.project__item {
     width: calc((100% - 90px) / 3);
     border: 1px solid #EEEEEE;
     border: none;
 }
 
-.project-bottom-link {
+.project__bottom__link {
     display: block;
 }
 
-.project-bottom-link:hover {
+.project__bottom__link:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.project-item:hover{
+.project__item:hover{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project-bottom-link:hover .project-bottom-text {
+.project__bottom__link:hover .project__bottom__text {
     transform: translateY(0%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project-bottom-info {
+.project__bottom__info {
     position: relative;
     overflow: hidden;
 }
 
-.project-bottom-text {
+.project__bottom__text {
     position: absolute;
     top: 0;
     left: 0;
@@ -994,13 +994,13 @@ a {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project-product {
+.project__product {
     line-height: 30px;
     letter-spacing: 0.03em;
     color: var(--discription-color);
 }
 
-.card-name {
+.project__card__name {
     display: block;
     padding: 20px 24px;
     text-align: start;
@@ -1009,7 +1009,7 @@ a {
     
 }
 
-.project-titel{
+.project__titel{
     margin-bottom: 4px;
     
     color: var(--brand-color);
@@ -1018,4 +1018,4 @@ a {
     line-height: 2;
     white-space: nowrap;
     letter-spacing: 0.06em;
-}
+} */

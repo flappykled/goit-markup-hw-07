@@ -12,8 +12,8 @@
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" href="./css/variables.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <!-- header -->
@@ -53,9 +53,9 @@
     <!-- main -->
     <main>
         <section class="hero">
-            <div class="countainer">
-                <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-                <button type="button" class="hero-button" data-modal-open >Замовити послугу</button>
+            <div class="hero__countainer countainer">
+                <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+                <button type="button" class="hero__button" data-modal-open >Замовити послугу</button>
         </section>
         <section class="section">
             <div class="countainer">
@@ -134,7 +134,7 @@
         </section>
 
         <section class="team section">
-            <div class="countainer">
+            <div class="team__countainer countainer">
                 <h2 class="team-title">Наша команда</h2>
                 <ul class="team-pic">
                     <li class="team-item">
@@ -289,50 +289,50 @@
                 </ul>
             </div>
         </section>
-        <section class= "regular-customers section">
-            <div class="countainer">
-                <h2 class="customers-title">Постійні клієнти</h2>
-                <ul class="customers-list list">
-                    <li class="customers-item">
-                        <a href="" class="customers-link link">
-                            <svg class="customers-icon" width="160" height="60">
+        <section class= "section">
+            <div class="customers countainer">
+                <h2 class="customers__title">Постійні клієнти</h2>
+                <ul class="customers__list list">
+                    <li class="customers__item">
+                        <a href="" class="customers__link link">
+                            <svg class="customers__icon" width="160" height="60">
                                 <use href="./images/icon.svg#icon-ya-co">
 
                                 </use>
                             </svg>
                         </a>
                     </li>
-                    <li class="customers-item">
-                        <a href="" class="customers-link link">
-                            <svg class="customers-icon" width="160" height="60">
+                    <li class="customers__item">
+                        <a href="" class="customers__link link">
+                            <svg class="customers__icon" width="160" height="60">
                                 <use href="./images/icon.svg#icon-company-tagline"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="customers-item">
-                        <a href="" class="customers-link link">
-                            <svg class="customers-icon" width="160" height="60">
+                    <li class="customers__item">
+                        <a href="" class="customers__link link">
+                            <svg class="customers__icon" width="160" height="60">
                                 <use href="./images/icon.svg#icon-company"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="customers-item">
-                        <a href="" class="customers-link link">
-                            <svg class="customers-icon" width="160" height="60">
+                    <li class="customers__item">
+                        <a href="" class="customers__link link">
+                            <svg class="customers__icon" width="160" height="60">
                                 <use href="./images/icon.svg#icon-foster"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="customers-item">
-                        <a href="" class="customers-link link">
-                            <svg class="customers-icon" width="160" height="60">
+                    <li class="customers__item">
+                        <a href="" class="customers__link link">
+                            <svg class="customers__icon" width="160" height="60">
                                 <use href="./images/icon.svg#icon-company-tagline"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="customers-item">
-                        <a href="" class="customers-link link">
-                            <svg class="customers-icon" width="160" height="60">
+                    <li class="customers__item">
+                        <a href="" class="customers__link link">
+                            <svg class="customers__icon" width="160" height="60">
                                 <use href="./images/icon.svg#icon-Tag"></use>
                             </svg>
                         </a>
@@ -343,16 +343,16 @@
         </section>
     </main>
     <!-- footer -->
-    <footer class="page-footer ">
-          <div class="countainer footer-countainer">
-                <div class="footer-address">
+    <footer class="footer__page ">
+          <div class="footer__countainer countainer">
+                <div class="footer__address">
                     <a href="./index.html">
                         <span lang="en" class="web">Web</span><span lang="en" class="studio-footer">Studio</span>
                     </a>
                     <address>
-                        <ul class="address-page" style="font-style: normal;">
+                        <ul class="footer__address__page" style="font-style: normal;">
                             <li style="margin-bottom: 9px;">
-                                <a class="street" href="https://goo.gl/maps/V4T1d4C4mNGTJnJD9" target="_blank" rel="noopener noreferrer"> м.
+                                <a class="footer__street" href="https://goo.gl/maps/V4T1d4C4mNGTJnJD9" target="_blank" rel="noopener noreferrer"> м.
                                     Київ, пр-т Лесі Українки, 26</a>
                             </li>
                             <li style="margin-bottom: 9px;">
@@ -364,52 +364,52 @@
                         </ul>
                     </address>
                 </div>
-                <div class="footer-social">
-                    <h2 class="soc-title">приєднуйтесь</h2>
-                    <ul class="footer-soc-list">
-                        <li class="footer-soc-item">
-                            <a href="" class="footer-soc-link link">
-                                <svg class="footer-soc-icon" width="20" height="20">
+                <div class="footer__social">
+                    <h2 class="footer__soc__title">приєднуйтесь</h2>
+                    <ul class="footer__soc__list">
+                        <li class="footer__soc__item">
+                            <a href="" class="footer__soc__link link">
+                                <svg class="footer__soc__icon" width="20" height="20">
                                     <use href="./images/icon.svg#icon-instagram"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="footer-soc-item"><a href="" class="footer-soc-link link">
-                                <svg class="footer-soc-icon" width="20" height="20">
+                        <li class="footer__soc__item"><a href="" class="footer__soc__link link">
+                                <svg class="footer__soc__icon" width="20" height="20">
                                     <use href="./images/icon.svg#icon-twitter"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="footer-soc-item">
-                            <a href="" class="footer-soc-link link">
-                                <svg class="footer-soc-icon" width="20" height="20">
+                        <li class="footer__soc__item">
+                            <a href="" class="footer__soc__link link">
+                                <svg class="footer__soc__icon" width="20" height="20">
                                     <use href="./images/icon.svg#icon-facebook"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="footer-soc-item">
-                            <a href="" class="footer-soc-link link">
-                                <svg class="footer-soc-icon" width="20" height="20">
+                        <li class="footer__soc__item">
+                            <a href="" class="footer__soc__link link">
+                                <svg class="footer__soc__icon" width="20" height="20">
                                     <use href="./images/icon.svg#icon-linkedin"></use>
                                 </svg>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="subscribe">
-                    <div class="subscribe-item">
-                        <h2 class="subscribe-title">Підпишіться на розсилку</h2>
+                <div class="footer__subscribe">
+                    <div class="footer__subscribe__item">
+                        <h2 class="footer__subscribe__title">Підпишіться на розсилку</h2>
                     </div>
-                    <form class="footer-form">
+                    <form class="footer__form">
                         <input 
                         type="footer-email" 
-                        class="input-footer" 
+                        class="footer__input" 
                         name="footer-email" 
                         placeholder="E-mail" 
                         id="foote-email"
                         >
-                        <button type="submit" class="subscribe-button">Підписатися
-                            <svg class="subscribe-icon" width="24" height="24">
+                        <button type="submit" class="footer__subscribe__button">Підписатися
+                            <svg class="footer__subscribe__icon" width="24" height="24">
                                 <use href="./images/icon.svg#icon-icon-send"></use>
                             </svg>
                         </button>
