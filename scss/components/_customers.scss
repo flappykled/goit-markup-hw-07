@@ -1,0 +1,43 @@
+.customers__title {
+    margin-bottom: 50px;
+    text-align: center;
+    color: var(--brand-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
+.customers__list {
+    display: flex;
+    gap: 30px;
+}
+
+.customers__item {
+    width: calc((100% - 150px)/6);
+    height: 92px;
+}
+
+.customers__link {
+    height: 100%;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 250ms ease-in-out;
+    &:hover,
+    &:focus {
+        border-color: var(--bluebrand-clor);
+        transition: border-color 250ms ease-in-out;
+    }
+}
+
+.customers__icon {
+    fill: #AFB1B8;
+    transition: fill 250ms ease-in-out;
+    .customers__link:hover & {
+        fill: var(--bluebrand-clor);
+        transition: fill 250ms ease-in-out;
+    }
+}

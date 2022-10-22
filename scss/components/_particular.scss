@@ -1,0 +1,43 @@
+.particular {
+    padding-top: 47px;
+    padding-bottom: 47px;
+}
+
+.particular-list {
+    display: flex;
+    gap: 30px;
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
+}
+
+.particular-content {
+    background-color: #F5F4FA;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+
+}
+
+.particular-title {
+    margin-bottom: var(--margin-bottom);
+
+    color: var(--brand-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+
+}
+
+.particular-txt {
+    color: var(--discription-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03;
+
+}
